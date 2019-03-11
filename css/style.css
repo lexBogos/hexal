@@ -18,15 +18,16 @@ p, span , div, h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .nav_bar__menu {
-  margin-left: 491px;
+  margin-left: 39%;
   margin-top: 28px;
   width: 634px;
 }
 .nav_bar__menu ul {
-  font-family: lato, sans-serif;
   display: flex; 
 }
+
 .nav_bar__menu ul > li > a {
+  font-family: lato, sans-serif;
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
@@ -43,7 +44,8 @@ p, span , div, h1, h2, h3, h4, h5, h6 {
 }
 
 .nav_bar__menu ul > li > a:hover {
-  color: 1px solid #ffffff;
+  transition: 0.5s;
+  color: #2eb398;
 }
 .header {
   height: 100px;
@@ -60,16 +62,43 @@ p, span , div, h1, h2, h3, h4, h5, h6 {
   width: 0;
   height: 0;
   margin-top: 35px;
-  margin-left: 12px;
+  margin-left: 13px;
   margin-right: 24px !important;
-  border-left: 46px solid transparent;
-  border-right: 46px solid transparent;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
   border-top: 26px solid #323232;
 }
+
+
+
+
 .dot{
   height: 2px;
   width: 2px;
   border-radius: 100%;
   background-color: #FFF;
   margin-top: 7px;
+}
+
+.logo_triangle{
+  left: 48%;
+  position: absolute;
+  top: 10px;
+  
+}
+
+.for_left_border{
+  position: absolute;
+  left: 21.1%;
+  top: 74px;
+  width: 410px;
+  border-bottom: 1px #E4E9EB solid;
+}
+
+.for_right_border{
+  position: absolute;
+  left: 54.19%;
+  top: 74px;
+  width: 410px;
+  border-bottom: 1px #E4E9EB solid;
 }
