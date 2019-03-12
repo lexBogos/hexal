@@ -14,8 +14,11 @@ p, span , div, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 .nav_bar {
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
   display: flex;
-  align-items: center;
+
 }
 .nav_bar__menu {
   margin-left: 39%;
@@ -66,11 +69,8 @@ p, span , div, h1, h2, h3, h4, h5, h6 {
   margin-right: 24px !important;
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
-  border-top: 26px solid #323232;
+  border-top: 26px solid #FFF;
 }
-
-
-
 
 .dot{
   height: 2px;
@@ -81,7 +81,7 @@ p, span , div, h1, h2, h3, h4, h5, h6 {
 }
 
 .logo_triangle{
-  left: 48%;
+  left: 50%;
   position: absolute;
   top: 10px;
   
@@ -101,4 +101,8 @@ p, span , div, h1, h2, h3, h4, h5, h6 {
   top: 74px;
   width: 410px;
   border-bottom: 1px #E4E9EB solid;
+}
+
+.container_block{
+
 }
